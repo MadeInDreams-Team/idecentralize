@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Learn how to develop on the blockchain. Project 1.",
   "author":"Ian Decentralize",
-  "homepage":".",
+  "homepage":"https://madeindreams-team.github.io/idecentralize/",
   "private": true,
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0",
