@@ -45,7 +45,12 @@ const {contentData} = props
 class App extends Component {
 
   componentDidMount(){
-    
+    window.ethereum.on('accountsChanged', function (accounts) {
+      window.location.reload();
+    })
+    window.ethereum.on('networkChanged', function (networkId) {
+      window.location.reload();
+    })
     this.loadAppData(this.props.dispatch)
   }
   async loadAppData(dispatch) {
